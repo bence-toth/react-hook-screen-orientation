@@ -20,7 +20,7 @@ yarn add react-hook-screen-orientation
 
 ```jsx
 import React from 'react'
-import screenOrientation from 'react-hook-screen-orientation'
+import useScreenOrientation from 'react-hook-screen-orientation'
 
 const ComponentWithScreenOrientation = () => {
   const screenOrientation = useScreenOrientation()
