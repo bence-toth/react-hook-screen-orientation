@@ -1,6 +1,6 @@
 {
   "name": "react-hook-screen-orientation",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React hook for accessing screen orientation",
   "keywords": [
     "react",
@@ -24,6 +24,6 @@
     "react": "^16.8.6"
   },
   "peerDependencies": {
-    "react": "^16.8.0 || ^17"
+    "react": "^16.8.0 || ^17 || ^18"
   }
 }
