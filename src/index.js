@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react'
 
 const getOrientation = () =>
-  window.screen.orientation.type
+  window.screen?.orientation?.type
 
 const useScreenOrientation = () => {
   const [orientation, setOrientation] =
